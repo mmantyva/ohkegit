@@ -37,7 +37,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Aja Pytest & Coverage
       run: |
-	# ajaa pytestin coveragella kaikkiin kansiossa oleviin fileisiin:
         coverage run -m pytest
     - name: Generoi Coverage-raportti
       run: |

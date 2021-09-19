@@ -33,7 +33,7 @@ def test_postinumero_jota_ei_loydy():
     assert tulos == "Tuntematon"
 
 
-def test_postinumerot_omalla_datalla(mocker):
+def test_postinumerot_omalla_datalla():
     oma_data = ERIKOISTAPAUKSET
     mocker.patch('http_pyynto.hae_postinumerot', return_value=oma_data)
 

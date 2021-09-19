@@ -37,7 +37,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Aja Pytest & Coverage
       run: |
-        run pytest
+        pytest
         coverage run --source=./test -m unittest discover -s ohkegit/
     - name: Generoi Coverage-raportti
       run: |

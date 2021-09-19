@@ -1,5 +1,4 @@
 import postitoimipaikka
-import mocker
 
 POSTINUMEROT = {
     "74701": "KIURUVESI",

@@ -38,7 +38,7 @@ jobs:
     - name: Aja Pytest & Coverage
       run: |
         run pytest
-	coverage run --source=./test -m unittest discover -s ohkegit/
+        coverage run --source=./test -m unittest discover -s ohkegit/
     - name: Generoi Coverage-raportti
       run: |
         coverage report -m

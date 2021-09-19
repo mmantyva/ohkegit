@@ -64,7 +64,6 @@ rope==0.19.0
 SecretStorage==2.3.1
 simplejson==3.16.0
 six==1.14.0
-systemd-python==234
 toml==0.10.2
 ubuntu-advantage-tools==27.2
 ubuntu-drivers-common==0.0.0
